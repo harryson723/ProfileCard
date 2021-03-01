@@ -1,0 +1,94 @@
+:root {
+     --dark-cyan: hsl(185, 75%, 39%);
+     --dark-blue: hsl(229, 23%, 23%);
+     --dark-grayish: hsl(227, 10%, 46%);
+     --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+     font-family: 'Kumbh Sans', sans-serif;
+     font-size: 18px;
+     color: var(--dark-blue);
+}
+
+body {
+     background: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg"), var(--dark-cyan) ;
+
+     background-repeat: no-repeat, no-repeat, repeat;
+     background-position: -300px -500px, 100vh 55vh;
+
+}
+
+.contenedor {
+     display: flex;
+     flex-flow: column nowrap;
+     height: 95vh;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.card {
+     display: flex;
+     flex-flow: column nowrap;
+     background-color: #FFF;
+     border-radius: 20px;
+     overflow: hidden;
+}
+
+.contentCard, .socialData {
+
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: center;
+     border-bottom: 1px solid rgba(136, 136, 136, 0.534);
+}
+
+.item {
+     padding: 20px;
+}
+
+p {
+     color: var(--dark-gray);
+     text-align: center;
+}
+
+
+
+.personalData {
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+}
+
+.victor {
+     border: solid 5px #FFF;
+     border-radius: 50%;
+     margin-top: calc(-60px - 5px);
+}
+
+.london {
+     font-size: 15px;
+}
+
+.item p {
+     font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+     display: flex;
+     justify-content: center;
+}
